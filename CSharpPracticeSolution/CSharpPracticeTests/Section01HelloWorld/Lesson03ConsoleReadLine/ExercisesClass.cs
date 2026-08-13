@@ -1,4 +1,5 @@
 namespace CSharpPracticeTests.Section01HelloWorld.Lesson03ConsoleReadLine;
+[Trait("Section", "Section01HelloWorld")]
 public class ExercisesClass
 {
     [Fact]

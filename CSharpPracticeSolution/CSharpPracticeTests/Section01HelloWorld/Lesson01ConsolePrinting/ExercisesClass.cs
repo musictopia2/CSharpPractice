@@ -1,5 +1,6 @@
 ﻿namespace CSharpPracticeTests.Section01HelloWorld.Lesson01ConsolePrinting;
 
+[Trait("Section", "Section01HelloWorld")]
 public class ExercisesClass
 {
     [Fact]
