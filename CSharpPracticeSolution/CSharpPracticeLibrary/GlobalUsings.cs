@@ -1,6 +1,1 @@
-﻿namespace CSharpPracticeLibrary;
-
-public class GlobalUsings
-{
-
-}
+﻿global using ss1 = CSharpPracticeLibrary.Helpers.StringConstants;
