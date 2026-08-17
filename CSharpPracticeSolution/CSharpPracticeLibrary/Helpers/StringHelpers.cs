@@ -5,4 +5,12 @@ internal static class StringHelpers
     {
         return $"{ss1.DoubleQuote}{payLoad}{ss1.DoubleQuote}";
     }
+    public static string LabelWithQuotes(string label, string content)
+    {
+        return $"{label}{SurroundWithQuotes(content)}";
+    }
+    public static string LabelWithTab(string label, string content)
+    {
+        return $"{label}{ss1.VBTab}{content}";
+    }
 }
