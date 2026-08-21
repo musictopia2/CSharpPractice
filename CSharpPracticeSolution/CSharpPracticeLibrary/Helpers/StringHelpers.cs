@@ -13,4 +13,8 @@ internal static class StringHelpers
     {
         return $"{label}{ss1.VBTab}{content}";
     }
+    public static string LabelWithColon(string label, object content)
+    {
+        return $"{label}: {content}";
+    }
 }
