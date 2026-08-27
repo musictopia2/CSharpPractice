@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="LessonContent.txt" />
+  </Folder>
   <Project Path="CSharpPracticeLibrary/CSharpPracticeLibrary.csproj" />
   <Project Path="CSharpPracticeTests/CSharpPracticeTests.csproj" />
 </Solution>
