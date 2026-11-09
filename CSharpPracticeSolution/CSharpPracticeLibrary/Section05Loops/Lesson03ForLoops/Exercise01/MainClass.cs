@@ -1,3 +1,4 @@
+
 namespace CSharpPracticeLibrary.Section05Loops.Lesson03ForLoops.Exercise01;
 public static class MainClass
 {

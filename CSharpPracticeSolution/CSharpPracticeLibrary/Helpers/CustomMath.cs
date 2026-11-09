@@ -12,5 +12,25 @@ public static class CustomMath
             return original % divider;
         }
         public T LastDigit => original % T.CreateChecked(10);
+
+        public T Percentage
+        {
+            get
+            {
+                if (original < T.Zero)
+                {
+                    return T.Zero;
+                }
+                T maximum = T.CreateChecked(100);
+                if (original > maximum)
+                {
+                    return maximum;
+                }
+                return original;
+            }
+        }
+
+
     }
+    
 }
